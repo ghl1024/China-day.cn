@@ -1,4 +1,4 @@
-# China-day.cn
+<a href="http://china-day.cn"># China-day.cn</a>
 中国节日倒计时
 我为什么要做这样的网站？
 程序员的时间都是以年计算的，今年过完，你又提升了多少。
