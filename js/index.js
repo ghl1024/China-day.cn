@@ -8,11 +8,12 @@ window.onload=function(){
 	var seconds =0;
 	var now_date = new Date();
 	var next_date = new Date(next_year,months,days,hours, minutes, seconds);
-	if(next_date-now_date == 0){
-		next_year++;
-		current_year++;
-	}
+
 	function timer(next_year,months,days,hours, minutes, seconds){
+		if(next_date-now_date == 0){
+			next_year++;
+			current_year++;
+		}
 		// var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
 		var end_time = new Date(next_year,months-1,days,hours, minutes, seconds);//月时从零开始的，所以要比真实月份小1
 		var now_time = new Date();
